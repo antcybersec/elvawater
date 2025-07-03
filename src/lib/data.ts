@@ -1,0 +1,51 @@
+export const products = [
+  {
+    id: '1',
+    name: 'Elva Pure Still Water',
+    description: 'Crisp, clean, and refreshing still mineral water sourced from pristine mountain springs. Perfect for everyday hydration.',
+    price: 149,
+    imageUrl: '/a45df7b4-277f-4f22-b3e1-e95b1c04d3e9.png',
+    aiHint: 'still water bottle',
+    sizes: ['500ml', '1L', '1.5L'],
+    details: 'Sourced from the Alpine peaks, our still water offers a balanced mineral content and a smooth, clean taste. Ideal for staying hydrated throughout your day.',
+  },
+  {
+    id: '2',
+    name: 'Elva Sparkling Water',
+    description: 'Effervescent and invigorating, our sparkling water adds a touch of celebration to any moment. Naturally carbonated.',
+    price: 199,
+    imageUrl: 'https://placehold.co/800x801.png',
+    aiHint: 'sparkling water bottle',
+    sizes: ['330ml', '750ml'],
+    details: 'With fine, lively bubbles and a refreshingly crisp finish, Elva Sparkling Water is a zero-calorie, zero-sugar alternative to sugary drinks. Enjoy it on its own or as a mixer.',
+  },
+  {
+    id: '3',
+    name: 'Elva Lemon Zest',
+    description: 'A delightful fusion of our sparkling water with a hint of natural lemon. A refreshing, citrus-infused experience.',
+    price: 229,
+    imageUrl: 'https://placehold.co/801x800.png',
+    aiHint: 'lemon water bottle',
+    sizes: ['330ml', '750ml'],
+    details: 'Infused with the essence of real lemons, this sparkling water offers a zesty and uplifting taste without any artificial sweeteners or calories. The perfect afternoon pick-me-up.',
+  },
+  {
+    id: '4',
+    name: 'Elva Berry Bliss',
+    description: 'A subtle hint of wild berries enhances our classic sparkling water for a fruity, flavorful hydration boost.',
+    price: 229,
+    imageUrl: 'https://placehold.co/801x801.png',
+    aiHint: 'berry water bottle',
+    sizes: ['330ml', '750ml'],
+    details: 'Experience the essence of a summer meadow with our Berry Bliss sparkling water. A delicate blend of natural berry flavors provides a satisfyingly sweet yet crisp taste.',
+  },
+];
+
+export const reviews = [
+  { id: '1', productId: '1', author: 'Alice Johnson', rating: 5, comment: 'The purest water I have ever tasted. So refreshing!' },
+  { id: '2', productId: '1', author: 'Bob Williams', rating: 5, comment: 'My go-to water for daily hydration. Clean and crisp.' },
+  { id: '3', productId: '2', author: 'Charlie Brown', rating: 4, comment: 'Great bubbles, very refreshing. Perfect for dinner parties.' },
+  { id: '4', productId: '3', author: 'Diana Prince', rating: 5, comment: 'The lemon flavor is so natural and not overpowering. I love it!' },
+  { id: '5', productId: '1', author: 'Ethan Hunt', rating: 4, comment: 'Good quality water. The bottle design is also very elegant.' },
+  { id: '6', productId: '2', author: 'Fiona Glenanne', rating: 5, comment: 'This is my favorite sparkling water brand. The carbonation is just right.' },
+];
